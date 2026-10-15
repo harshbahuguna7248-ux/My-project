@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harsh Bahuguna | Junior 3D Artist &amp; 3D Modeler</title>
+<meta name="description" content="Portfolio of Harsh Bahuguna, a Junior 3D Artist and 3D Modeler from Dehradun, India, working in Blender, Maya and 3ds Max.">
+<meta name="theme-color" content="#0b0b0e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Harsh Bahuguna | Junior 3D Artist & 3D Modeler">
+<meta property="og:description" content="3D modeling portfolio: Blender, Autodesk Maya, Autodesk 3ds Max.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="topbar">
+  <nav class="wrap bar" aria-label="Main">
+    <a href="#home" class="logo">HARSH BAHUGUNA</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navList">☰</button>
+    <ul id="navList" class="nav">
+      <li><a href="#home">Home</a></li><li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li>
+      <li><a href="#projects" class="btn primary small">View My Work</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+  <section id="home" class="wrap hero">
+    <div class="rise">
+      <p class="eyebrow" id="heroTitle"></p>
+      <h1 id="heroHeadline"></h1>
+      <p class="lead" id="heroIntro"></p>
+      <div class="actions"><a href="#projects" class="btn primary">Explore Projects →</a><a href="#contact" class="btn">Contact Me</a></div>
+    </div>
+    <figure class="hero-img rise" id="heroFig"></figure>
+  </section>
+  <section id="projects" class="wrap section">
+    <h2>Featured Projects</h2>
+    <div class="filters" id="filters" role="group" aria-label="Filter projects by category"></div>
+    <ul class="grid" id="grid"></ul>
+    <p class="empty" id="empty" hidden>Projects are coming soon.</p>
+  </section>
+  <section id="about" class="wrap section"><h2>About Me</h2><div class="prose" id="aboutText"></div></section>
+  <section id="skills" class="wrap section"><h2>Skills</h2><div id="skillsBox"></div></section>
+  <section id="experience" class="wrap section two">
+    <div><h2>Experience</h2><div id="expBox"></div></div>
+    <div><h2>Education</h2><div id="eduBox"></div></div>
+  </section>
+  <section id="contact" class="wrap section">
+    <h2>Contact</h2>
+    <p class="prose">I am open to Junior 3D Artist, 3D Modeler and entry-level 3D visualization roles.</p>
+    <p><a class="btn primary" id="mailLink"></a></p>
+    <p class="muted" id="loc"></p>
+    <ul class="chips" id="socials"></ul>
+  </section>
+</main>
+<footer class="foot"><div class="wrap foot-in">
+  <div><strong id="fName"></strong><br><span class="muted" id="fTitle"></span></div>
+  <ul class="nav foot-nav"><li><a href="#home">Home</a></li><li><a href="#projects">Projects</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul>
+  <p class="muted">© <span id="year"></span> <span id="fName2"></span></p>
+</div></footer>
+<div class="modal" id="modal" hidden>
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="mTitle" id="dialog"></div>
+</div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
